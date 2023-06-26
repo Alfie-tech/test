@@ -1,0 +1,380 @@
+body {
+  background-image: url(./alfietech.jpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.{
+  margin: o;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient();
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: deeppink;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.description{
+  width: 400px;
+  height: 50px;
+  margin: 20px;
+  padding: 5px;
+  color: white;
+  letter-spacing: 1.2px;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.Services{
+  width: 80%;
+  height: 40px;
+  margin: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  letter-spacing: 1.2px;
+  font-size: 15px;
+  font-family: Arial;
+}
+h3{
+  color: #fff;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 55px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: .4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #ff7200;
+}
+
+.search{
+  width: 40px;
+  float: left;
+  margin-left: 20px;
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 120px;
+  height: 20px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn{
+  width: 80px;
+  height: 20px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+}
+
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background-color: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.content .cn a{
+  text-decoration: none;
+  color: #000;
+}
+
+.cn:hover{
+  background-color: #fff;
+}
+
+.content span{
+  color: #ff7200;
+  font-size: 60px;
+}
+
+.form{
+  width: 380px;
+  height: 380px;
+  background: linear-gradient();
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form h2{
+  width: 180px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.form input{
+  width: 200px;
+  height: 25px;
+  background: transparent;
+  border-bottom: 1px solid #ff7200;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.form label{
+  color: #fff;
+}
+
+.form textarea{
+color: #000;
+}
+
+.form.send{
+color: #ff7200;
+}
+.form.send:hover{
+  margin-top: 20px;
+ padding: 5px;
+  color: white;
+}
+.form input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: #fff;
+  font-family: Arial;
+}
+
+.btnn{
+  width: 200px;
+  height: 30px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.btnn:hover{
+  background: #fff;
+  color: #ff7200;
+}
+
+.btnn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.form .link{
+  font-family: Arial;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.form .link a{
+  text-decoration: none;
+  color: #ff7200;
+}
+
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.icons a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+  color: #ff7200;
+}
+
+.about{
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content-table{
+border-collapse: collapse;
+margin: 25px 0px;
+font-size: 0.9em;
+min-width: 400px;
+color: #fff;
+font-weight: bold;
+width: 600px;
+height: 200px;
+margin-left: 50px;
+}
+
+.content-table thead tr{
+  background-color: blue;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th td{
+  padding: 12px 15px;
+  color: #fff;
+}
+
+.content-table tbody tr{
+  border-bottom: 2px solid;
+  border-color: blue;
+}
+
+.serviceA, .serviceB{
+  width: 100%;
+  margin: 200px;
+  text-align: center;
+}
+
+.a, .b{
+  width: 50%;
+  text-align: center;
+}
+
+.a{
+  float: left;
+}
+.b{
+  float: right;
+}
+.img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.img{
+  border-radius: 20px;
+}
+
+.container{
+  border: 2px solid blueviolet;
+}
